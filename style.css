@@ -1,0 +1,65 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
+header {
+  background: linear-gradient(to right, #4a90e2, #9013fe); /* градиент */
+  text-align: center;
+  padding: 20px;
+}
+header h1 { color: white; }
+nav ul { list-style: none; }
+nav ul li { display: inline; margin: 0 15px; }
+nav a {
+  color: white;
+  text-decoration: none; /* убрать подчёркивание */
+  text-transform: uppercase; /* требование */
+}
+header h1:hover {
+  color: gold;
+  font-size: 2.2em;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#gallery h2 { margin-bottom: 20px; }
+figure { text-align: center; margin: 25px 0; }
+img {
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #ccc;
+}
+img:hover {
+  transform: scale(1.1);
+}
+figcaption { margin-top: 8px; color: #666; }
+ul { padding-left: 20px; }
+li { margin: 5px 0; }
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #999;
+}
+button {
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  border: none;
+}
+button:hover {
+  background-color: #c0392b; 
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+

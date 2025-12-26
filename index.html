@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио художника</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="site-header">
+        <h1>Портфолио художника Ивана Шишкина</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery" class="section">
+            <h2>Галерея работ</h2>
+            <figure>
+                <img src="https://cdn.ruwiki.ru/commonswiki/files/c/ce/Шишкин_И._И._%281891%29_На_севере_диком.jpg" alt="На севере диком">
+                <figcaption>На севере диком</figcaption>
+            </figure>
+            <figure>
+                <img src="https://cs3.livemaster.ru/zhurnalfoto/f/0/8/130705025600.jpg" alt="Утро в сосновом лесу">
+                <figcaption>Утро в сосновом лесу</figcaption>
+            </figure>
+        </section>
+        
+        <section class="section">
+            <h2>О художнике</h2>
+            <p>Иван Шишкин — русский художник, мастер реалистического пейзажа. Также создавал гравюры на металле.</p>
+            <ul>
+                <li>Направления: живопись, гравюра, рисунок</li>
+                <li>Техника: Традиционная послойная манера, Передача световоздушной среды, Карандашный рисунок.</li>
+                <li>Опыт: более 20 лет</li>
+            </ul>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Контактная форма</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 Учебный проект</p>
+        <a href="https://chelmusart.ru/" target="_blank">Челябинский музей изобразительных искусств</a>
+    </footer>  
+</body>
+</html>
